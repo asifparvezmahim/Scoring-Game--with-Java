@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/scoreCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/scoreCard"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="30dp"-->
+<!--        />-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/increaseButtonId"
+            android:layout_margin="5px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/increasing_btn"
+            android:onClick="buttonActivity"
+            />
+
+        <Button
+            android:id="@+id/decreaseButttonId"
+            android:layout_margin="5px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/decreasing_btn"
+            android:onClick="buttonActivity"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/resetButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_btn"
+            android:onClick="buttonActivity"
+
+        />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Scoring Game</string>
+    <string name="increasing_btn">Increase Score</string>
+    <string name="decreasing_btn">Decrease Score</string>
+    <string name="reset_btn">Reset Score</string>
+</resources>
